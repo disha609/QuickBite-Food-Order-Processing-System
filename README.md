@@ -1,4 +1,4 @@
-### QuickBite: Food Order Processing System
+## QuickBite: Food Order Processing System
 
 A high-performance, microservices-based food order platform built with Node.js, TypeScript, Docker & Kafka. The system is designed to handle real-time workflows, secure API access, and efficient communication between services.
 
@@ -15,4 +15,5 @@ A high-performance, microservices-based food order platform built with Node.js, 
 - **Messaging / Event Bus: Kafka
 - **Authentication: JWT (JSON Web Tokens)
 - **Architecture: Microservices (4 core services: Menu, Order, User Auth, Access Control)
+
 
