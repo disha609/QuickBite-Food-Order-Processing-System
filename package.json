@@ -1,0 +1,32 @@
+{
+    "name": "restaurant-quickservice",
+    "version": "1.0.0",
+    "description": "Quick service restaurant microservices",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsc && node dist/index.js",
+        "dev": "ts-node src/index.ts",
+        "start:all": "concurrently \"npm run start:auth\" \"npm run start:user\" \"npm run start:menu\" \"npm run start:order\"",
+        "start:auth": "cd auth-service && npm run dev",
+        "start:user": "cd user-service && npm run dev",
+        "start:menu": "cd menu-service && npm run dev",
+        "start:order": "cd order-service && npm run dev"
+        
+    },
+    "dependencies": {
+        "aerospike": "^6.2.0",
+        "express": "^5.1.0",
+        "jsonwebtoken": "^9.0.2",
+        "kafkajs": "^2.2.4"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.2",
+        "@types/jsonwebtoken": "^9.0.9",
+        "concurrently": "^9.1.2",
+        "typescript": "^5.8.3"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs"
+}
