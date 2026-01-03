@@ -9,11 +9,12 @@ A high-performance, microservices-based food order platform built with Node.js, 
 - **High Performance:** MongoDB (storage), Aerospike (cache), Docker (deployment)
 
 ## Tech Stack
-- **Backend: Node.js (TypeScript)
-- **Database: MongoDB, Aerospike
-- **Containerization: Docker
-- **Messaging / Event Bus: Kafka
-- **Authentication: JWT (JSON Web Tokens)
-- **Architecture: Microservices (4 core services: Menu, Order, User Auth, Access Control)
+- **Backend:** Node.js (TypeScript)
+- **Database:** MongoDB, Aerospike
+- **Containerization:** Docker
+- **Messaging / Event Bus:** Kafka
+- **Authentication:** JWT (JSON Web Tokens)
+- **Architecture:** Microservices (4 core services: Menu, Order, User Auth, Access Control)
+
 
 
